@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.bg-1{
+    background-color: #23232e;
+    text-align: center;
+    padding: 30px 20%;
+    color: #fff;
+    overflow: hidden;
+}
+.bg-1 p{
+    color: #c4c4c7;
+}
+.bg-2{
+    background-image: url('image/background.png');
+    text-align: center;
+    padding: 30px 20%;;
+    color: #464b4f;
+    overflow: hidden;
+}
+
+
+/*--- this is header part design---*/
+.head img{
+    width: 10%;
+    padding: 20px;
+}
+.head h2{
+    padding-top: 40px;
+}
+.head p{
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+.head a{
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+/* this is what i do part */
+
+.what-i-do .text{
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.what-i-do .col{
+    width: 29.33%;
+    margin: 2%;
+    float: left;
+    text-align: justify;
+
+}
+.what-i-do .col h4{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+/* My work */
+
+.my-work .menu{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-work .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.my-work .menu ul li{
+    float: left;
+    padding: 0 18px;
+}
+.my-work .menu ul li a{
+    color: #c4c4c7;
+    text-decoration: none;
+    padding-bottom: 3px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.my-work .menu ul li a:hover,
+.my-work .menu ul li .active{
+    border-bottom: 2px solid #7b77c9;
+}
+
+/*--my work and photograpghy colum style--*/
+.my-work .col,
+.photography .col{
+    width: 29.33%;
+    margin: 2%;
+    float: left;
+    text-align: justify;
+    text-align: center;
+
+}
+
+/*--my work and photograpghy image style--*/
+.my-work img,
+.photography .col img{
+    width: 100%;
+
+}
+.my-work .col h4{
+    padding: 10px 4px;
+}
+button{
+    background-color: #7b77c9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+/*Photography---*/
+
+.photography p{
+    padding: 20px;
+}
+
+
+/*-- this is subcribe part--*/
+
+.subscribe{
+    padding: 100px 0 80px 0;
+}
+.subscribe button{
+    border-radius: 0 5px 5px 0;
+}
+.subscribe input{
+    border: none;
+    padding: 10px 40px 10px 20px;
+    border-radius: 5px 0 0 5px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: -4px;
+}
+.subscribe a{
+    color: #fff;
+    font-size: 50px;
+}
+
+/*-- footer area---*/
+.footer .social-media{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+.footer ul li{
+     float: left;
+     padding: 0 20px;
+}
+.footer a{
+     font-size: 24px;
+     color: #c4c4c7;
+}
+.footer a:hover{
+    color: #5b52ff;
+}
+.copy-right{
+    margin: 50px;
+}
+ .copy-right p{
+   padding: 8px;
+}
+
+
+
+/*--responsiv---*/
+
+@media all and (max-width: 500px){
+    .head img{
+        width: 30%;
+        padding-bottom: 0;
+    }
+    .bg-1,
+    .bg-2{
+        padding: 30px 10%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    /*---what i do area*/
+    .what-i-do .text{
+        font-size: 20px;
+        padding: 0 10px;
+        text-align: justify;
+    }
+    .what-i-do .col{
+        float: none;
+        width: 100%;
+    }
+    /*my work area*/
+    .my-work .col{
+        float: none;
+        width: 100%;
+    }
+    .my-work .col p{
+        margin-bottom: 30px;
+    }
+    .my-work .menu{
+        display: block;
+    }
+    .my-work .menu ul li{
+        padding: 6px 8px 12px 8px;
+    }
+    /*photography area*/
+    .photography .col{
+        float: none;
+        width: 100%;
+
+    }
+    .photography p{
+        padding: 10px;
+    }
+    /*subscribe area*/
+    .subscribe input,
+    .subscribe button{
+        border-radius: 5px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /*footer area*/
+    .footer ul li{
+        padding: 0 15px;
+    }
+    .footer a{
+        font-size: 20px;
+        color: #c4c4c7;
+    }
+   
+   .copy-right{
+       margin: 50px;
+   }
+   .copy-right p{
+       padding: 8px 0;
+   }
+}

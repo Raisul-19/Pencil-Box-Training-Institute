@@ -1,0 +1,47 @@
+/*------this is header part----*/
+.header{
+    background-color: red;
+    height: 150px;
+}
+
+/*----this is for main part---*/
+
+.main{
+    background-color: green;
+    height: 700px;
+
+}
+.col{
+    background-color: yellow;
+    height: 27%;
+    width: 29.33%;
+    float: left;
+    margin: 1% 2%;
+
+}
+/* .midle{
+    background-color: aqua;
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin: 0 2%;
+
+}
+
+.right{
+    background-color: yellowgreen;
+    height: 100%;
+    width: 24%;
+    float: right;
+    margin: 0 2%;
+
+} */
+
+
+
+/*----this is for footer part---*/
+
+.footer{
+    background-color: blue;
+    height: 100px;
+}

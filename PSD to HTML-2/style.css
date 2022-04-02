@@ -1,0 +1,592 @@
+ /* font-family: 'Montserrat', sans-serif; */
+
+
+/*---global style--*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    padding: 0 15%;
+}
+.prim-text-color{
+    color: #fe320a;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.my-btn{
+    padding: 10px 30px;
+    background-color: #fe320a;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+.header-text{
+    text-align: center;
+    margin-top: 50px;
+}
+.header-text h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.hr{
+    border: none;
+    height: 2px;
+    width: 11%;
+    background-color: #fe320a;
+}
+.header-text h2::after{
+    content: "";
+    clear: both;
+    display: block;
+
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fe320a;
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+}
+/* header section */
+.menu{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    z-index: 2;
+    width: 70%;
+}
+.menu .left{
+    float: left;
+}
+.menu .left img{
+    width: 70%;
+    padding: 10px;
+}
+.menu .rigth{
+    float: right;
+}
+.menu .rigth ul{
+    display: flex;
+    padding: 25px 0;
+
+}
+.menu .rigth ul li a{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0 6px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header-content{
+    background-image: url('image/bg-head.png');
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    color: #fff;
+}
+.header-content::after{
+    content: "";
+    clear: both;
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+.header-content h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.header-content p{
+    font-size: 12px;
+    padding: 20px;
+}
+.header-content button{
+    margin-top: 20px;
+}
+
+/*---about us section*/
+.about{
+    padding-bottom: 20px;
+}
+.about-content{
+    display: flex;
+}
+.about-content-left{
+    width: 100%;
+    margin: 22px 3%;
+}
+.about-content-rigth{
+    width: 30%;
+    margin: 0 2%;
+}
+.about-content-left .image img{
+    width: 100%;
+}
+.about-content-left .image{
+    position: relative;
+}
+.about-content-left .image .social{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.about-content-left .image .social h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.about-content-left .image .social ul{
+    display: flex;
+   
+    justify-content: center;
+}
+.about-content-left .image .social ul li{
+    padding: 0 3px;
+}
+.about-content-left .image .social ul li a{
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(51, 51, 51);
+    transition: .8s;
+}
+.about-content-left .image .social ul li a:hover{
+    color: #000;
+    background-color: #fff;
+}
+.about-content-right p{
+    font-size: 15px;
+}
+
+.about-back{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('image/about-us.png');
+    background-size: cover;
+    margin-top: 20px;
+    padding: 80px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.about-back h2{
+    margin-bottom: 50px;
+}
+.about-back a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 13px;
+    font-size: 18px;
+    border: 2px solid #fff ;
+    border-radius: 8px;
+
+}
+
+/*our servise*/
+.our-services{
+    margin: 50px 0;
+}
+.our-services .servic{
+    display: flex;
+}
+.servic-item{
+    width: 33.33%;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 20px;
+   
+}
+.our-services h3{
+    text-transform: capitalize;
+}
+.our-services p{
+    font-size: 14px;
+    text-align: justify;
+}
+.our-services a{
+    font-size: 22px;
+}
+
+/* my skill*/
+.skill-section{
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.skill-head{
+    margin: 40px 10px 0 10px;
+    text-transform: capitalize;
+}
+.skill-head-2{
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.skill{
+    display: flex;
+
+}
+.skill .text,
+.skill .skill-bar{
+    width: 48%;
+    margin: 1%;
+}
+.skill p{
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0;
+    text-align: justify;
+}
+.bar-back{
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #fff;
+    font-size: 8px;
+}
+.bar-back span{
+    float: right;
+}
+.skill-bar h4{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+.bar{
+    display: inline-block;
+    height: 6px;
+    background-color: #fe320a;
+    border-radius: 10px;
+}
+.web-development{
+    width: 60%;
+}
+.web-design{
+    width: 70%;
+}
+.graphics-design{
+    width: 80%;
+}
+
+/*---client revew---*/
+.client{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('image/happy-client.png');
+    background-size: cover;
+}
+.happy-client{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.happy-client .client-revew{
+    width: 23%;
+    margin: 60px 0;
+    color: #fff;
+}
+.happy-client .client-revew p{
+    border: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    padding: 12px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.happy-client .client-revew h3{
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+/*our portfolio*/
+.port-folio{
+    padding-bottom: 50px;
+}
+.port-folio .content ul{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.port-folio .content ul li{
+    list-style: none;
+    padding: 8px 12px;
+
+
+}
+.port-folio .content ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.port-folio .port-item{
+    display: flex;
+}
+.port-folio .port-item .item{
+    width: 31.33%;
+    margin: 1%;
+    position: relative;
+    
+
+}
+.port-folio .port-item .item img{
+    width: 100%;
+}
+.port-folio .port-item .item .overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fb715672;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.port-folio .port-item .item:hover .overlay{
+    display: block;
+}
+.port-folio .port-item .item .overlay a{
+    display: block;
+    margin-top: 30%;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+/*---my team----*/
+.my-team-section{
+    background-color: #f3f3f3;
+    padding-top: 5px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.team .team-member{
+    width: 23%;
+    position: relative;
+   
+
+}
+.team .team-member img{
+    width: 100%;
+    border-bottom: 6px solid #fe320a;
+}
+.team .team-member .social{
+    display: none;
+    background-color: #ff2a00d5;
+    color: #fff;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.team .team-member .social h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.team .team-member .social ul{
+    display: flex;
+    justify-content: center;
+}
+.team .team-member .social ul li{
+    padding: 0 3px;
+}
+.team .team-member .social ul li a{
+    padding: 2px 5px;
+    color: #fff;
+}
+.team .team-member:hover::after{
+    content: "";
+    clear: both;
+    display: block;
+
+    height: 100%;
+    width: 100%;
+    background-color: #ff2a0060;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+.team .team-member:hover .social{
+    display: block;
+    z-index: 2;
+}
+
+.under-team{
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('image/under-team.png');
+    color: #fff;
+
+}
+.under-team img{
+    width: 70px;
+}
+.under-team h3{
+    font-weight: bold;
+}
+.under-team p{
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+
+/*---latest blogs---*/
+.blog-box{
+    display: flex;
+    padding: 50px 0;
+}
+.blogs{
+
+    width: 31.33%;
+    margin: 1%;
+    box-shadow: 6px 4px 4px 4px rgba(68, 68, 68, 0.197);
+
+}
+.blog-box .blog-image img{
+    width: 100%;
+}
+.blog-box .blog-text{
+    padding: 12px;
+}
+.blog-box .blog-text span{
+    color: #fe320a;
+}
+.blog-box .blog-text button{
+    background-color: #000;
+    color: #fff;
+    padding: 6px 16px;
+    border: none;
+}
+
+
+
+/*-----contact------*/
+.contact{
+    background-image: url('image/conatact.png');
+    background-size: cover;
+    padding: 40px 0;
+    position: relative;
+    z-index: 1;
+}
+.contact .header-text{
+    color: #fff;
+}
+.contact::before{
+    content: "";
+    clear: both;
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.contact form{
+    margin-top: 30px;
+}
+.contact form input{
+    width: 45%;
+
+}
+.contact form input,
+.contact form textarea{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px 10px;
+    color: #fff;
+    margin: 15px 1%;
+    font-size: 16px;
+}
+.contact form textarea{
+    width: 94%;
+}
+.contact form input::placeholder,
+.contact form textarea::placeholder{
+    color: #fff;
+}
+.contact button{
+    margin: 14px;
+    border-radius: 8px;
+}
+
+
+/*---footer section---*/
+footer{
+    padding: 20px 0;
+    color: #fff;
+    background-color: #121111;
+}
+.footer{
+    display: flex;
+}
+.footer .social{
+    width: 50%;
+}
+.footer .copy-right{
+    width: 50%;
+    text-align: right;
+}
+.footer .social ul{
+    display: flex;
+    padding-top: 14px;
+
+}
+.footer .social ul li{
+    padding: 3px 8px;
+    list-style: none;
+}
+.footer .social ul li a{
+    text-decoration: none;
+    color: #fff;
+}
